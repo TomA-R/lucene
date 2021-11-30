@@ -215,7 +215,7 @@ public final class AnalysisPanelProvider implements AnalysisTabOperator {
     String text = inputArea.getText();
     if (Objects.isNull(text) || text.isEmpty()) {
       messageBroker.showStatusMessage(
-          MessageUtils.getLocalizedMessage("analysis.message.empry_input"));
+          MessageUtils.getLocalizedMessage("analysis.message.empty_input"));
     }
 
     lowerPanel.remove(stepByStepResult);
@@ -237,7 +237,7 @@ public final class AnalysisPanelProvider implements AnalysisTabOperator {
     String text = inputArea.getText();
     if (Objects.isNull(text) || text.isEmpty()) {
       messageBroker.showStatusMessage(
-          MessageUtils.getLocalizedMessage("analysis.message.empry_input"));
+          MessageUtils.getLocalizedMessage("analysis.message.empty_input"));
     }
     lowerPanel.remove(simpleResult);
     lowerPanel.add(stepByStepResult, BorderLayout.CENTER);

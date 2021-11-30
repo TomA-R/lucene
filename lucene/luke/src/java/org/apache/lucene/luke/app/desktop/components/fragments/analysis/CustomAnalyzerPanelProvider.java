@@ -164,7 +164,7 @@ public final class CustomAnalyzerPanelProvider implements CustomAnalyzerPanelOpe
     panel.add(confDirBtn);
     buildBtn.setText(
         FontUtils.elegantIconHtml(
-            "&#xe102;", MessageUtils.getLocalizedMessage("analysis.button.build_analyzser")));
+            "&#xe102;", MessageUtils.getLocalizedMessage("analysis.button.build_analyzer")));
     buildBtn.setFont(StyleConstants.FONT_BUTTON_LARGE);
     buildBtn.setMargin(new Insets(3, 3, 3, 3));
     buildBtn.addActionListener(listeners::buildAnalyzer);
